@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: prop.ma
-//Last modified: Thu, Sep 07, 2017 04:52:37 PM
+//Last modified: Thu, Sep 07, 2017 05:02:40 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "42D5D2F9-472F-7B7B-6182-5D82AACB7BEA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -9.5730438391200892 19.261403429251313 -11.654414308400904 ;
+	setAttr ".t" -type "double3" -3.3820728395495703 6.8048857275110617 -4.117402861167708 ;
 	setAttr ".r" -type "double3" -51.938352729591124 -140.59999999998297 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DF1E9F7F-4914-4304-F625-85890D9BF84E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.46365065320656;
+	setAttr ".coi" 8.6427942690845114;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -98,6 +98,7 @@ createNode imagePlane -n "imagePlaneShape2" -p "imagePlane2";
 	setAttr ".fc" 204;
 	setAttr ".imn" -type "string" "C:/Users/10820560/Documents/maya/projects/default//scenes/edits/DGM1660-Fall2017/Prop/PropFront.png";
 	setAttr ".cov" -type "short2" 2048 2048 ;
+	setAttr ".ag" 0.52903225837095125;
 	setAttr ".dlc" no;
 	setAttr ".w" 20.48;
 	setAttr ".h" 20.48;
@@ -112,6 +113,7 @@ createNode imagePlane -n "imagePlaneShape3" -p "imagePlane3";
 	setAttr ".fc" 204;
 	setAttr ".imn" -type "string" "C:/Users/10820560/Documents/maya/projects/default//scenes/edits/DGM1660-Fall2017/Prop/PropSide.png";
 	setAttr ".cov" -type "short2" 2048 2048 ;
+	setAttr ".ag" 0.561290322917123;
 	setAttr ".dlc" no;
 	setAttr ".w" 20.48;
 	setAttr ".h" 20.48;
