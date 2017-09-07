@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: prop.ma
-//Last modified: Thu, Sep 07, 2017 05:02:40 PM
+//Last modified: Thu, Sep 07, 2017 05:19:46 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "42D5D2F9-472F-7B7B-6182-5D82AACB7BEA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.3820728395495703 6.8048857275110617 -4.117402861167708 ;
+	setAttr ".t" -type "double3" -5.6900554971032076 11.4486527280544 -6.9271869340060732 ;
 	setAttr ".r" -type "double3" -51.938352729591124 -140.59999999998297 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DF1E9F7F-4914-4304-F625-85890D9BF84E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 8.6427942690845114;
+	setAttr ".coi" 14.540780572805453;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
